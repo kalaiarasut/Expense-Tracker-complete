@@ -22,47 +22,51 @@ Expense Tracker/
 │ ├── package.json
 │ └── ...
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher recommended)
-- npm
-
-__1. Clone the repository__
+## 1. Clone the Repository
 
 ```sh
 git clone https://github.com/your-username/expense-tracker.git
 cd "Expense Tracker"
-
-__2. Setup the Backend__
+2. Setup the Backend
+sh
+Copy
+Edit
 cd express
 npm install
-
 Update your MongoDB Atlas connection string in App.js if needed.
-Make sure your IP is whitelisted in MongoDB Atlas.
-Start the backend server:
-npm start
-The backend will run on http://localhost:3000.
 
-__3. Setup the Frontend__
+Make sure your IP is whitelisted in MongoDB Atlas.
+
+Start the backend server:
+
+sh
+Copy
+Edit
+npm start
+The backend will run at: http://localhost:3000
+
+3. Setup the Frontend
+sh
+Copy
+Edit
 cd "../Expense Tracker"
 npm install
 npm run dev
-The frontend will run on http://localhost:5173.
+The frontend will run at: http://localhost:5173
 
 API Endpoints
-GET    /expense - Get all expenses
-POST   /expenses - Add a new expense
-PUT    /expense/:id - Edit an expense
-DELETE /expense/:id - Delete an expense
+Method	Endpoint	Description
+GET	/expense	Get all expenses
+POST	/expenses	Add a new expense
+PUT	/expense/:id	Edit an expense
+DELETE	/expense/:id	Delete an expense
+
 Customization
-Update MongoDB credentials in express/App.js as needed.
-Update styles in src/index.css.
+Update MongoDB credentials in express/App.js
+
+Modify styles in client/src/index.css
 
 License
-MIT
+Free to use under MIT License
 
-Enjoy tracking your expenses! ``````
-
-
+Enjoy tracking your expenses! 💸
