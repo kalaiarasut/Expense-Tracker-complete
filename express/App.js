@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const MONGO_URI = 'mongodb+srv://kalai:kalai96@cluster0.vdkk8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongodb+srv://<user_name>:<password>@cluster0.vdkk8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';//Add your credentials
 
 mongoose.connect(MONGO_URI)
     .then(() => {
