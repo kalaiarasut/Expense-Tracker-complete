@@ -9,7 +9,7 @@ A simple full-stack Expense Tracker application built with **React** (frontend) 
 - Responsive and clean UI
 - Persistent storage with MongoDB Atlas
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 Expense Tracker/
@@ -25,14 +25,14 @@ Expense Tracker/
 │   └── ...
 ```
 
-## 🚀 1. Clone the Repository
+##  1. Clone the Repository
 
 ```sh
 git clone https://github.com/your-username/expense-tracker.git
 cd "Expense Tracker"
 ```
 
-## ⚙️ 2. Setup the Backend
+##  2. Setup the Backend
 
 ```sh
 cd server
@@ -49,7 +49,7 @@ npm start
 
 > The backend will run at: [http://localhost:3000](http://localhost:3000)
 
-## 🖥️ 3. Setup the Frontend
+##  3. Setup the Frontend
 
 ```sh
 cd ../client
@@ -59,7 +59,7 @@ npm run dev
 
 > The frontend will run at: [http://localhost:5173](http://localhost:5173)
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint         | Description           |
 |--------|------------------|-----------------------|
@@ -68,12 +68,12 @@ npm run dev
 | PUT    | `/expense/:id`   | Edit an expense       |
 | DELETE | `/expense/:id`   | Delete an expense     |
 
-## 🎨 Customization
+##  Customization
 
 - Update MongoDB credentials in `server/App.js`
 - Modify styles in `client/src/index.css`
 
-## 📄 License
+##  License
 
 Free to use under the [MIT License](./LICENSE)
 
