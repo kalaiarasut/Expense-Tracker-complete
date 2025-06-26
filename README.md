@@ -10,17 +10,17 @@ A simple full-stack Expense Tracker application built with **React** (frontend) 
 - Persistent storage with MongoDB Atlas
 
 ## Folder Structure
-Expense Tracker/           
-├── client/                # React Frontend (was: Expense Tracker/)
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   ├── vite.config.js
-│   └── ...
-├── server/                # Express Backend (was: express/)
-    ├── App.js
-    ├── package.json
-    └── ...
+Expense Tracker/
+├── client/ # React Frontend (was: Expense Tracker/)
+│ ├── public/
+│ ├── src/
+│ ├── package.json
+│ ├── vite.config.js
+│ └── ...
+├── server/ # Express Backend (was: express/)
+│ ├── App.js
+│ ├── package.json
+│ └── ...
 
 ## Getting Started
 
